@@ -78,6 +78,7 @@ ul li {
 }
 .s_item{
     margin-top: 1.5rem;
+    margin-right: 5px;
     font-size: 1.0rem;
     display: flex;
     gap: 0.5rem;
