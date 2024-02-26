@@ -53,7 +53,7 @@ th, td {
 
 th {
     border-radius: 2px;
-    border: 1px: solid #00d5ff;
+    border: 1px solid #00d5ff;
   background-color: #00d5ff;
   color: #fff;
 }
@@ -78,6 +78,10 @@ grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 600px) {
+    .main-container{
+        width:100%;
+        grid-template-columns: 1fr;
+    }
   header img {
     width: 100%;
   }
